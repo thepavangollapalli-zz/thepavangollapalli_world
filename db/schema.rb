@@ -14,8 +14,8 @@
 ActiveRecord::Schema.define(version: 20170424234109) do
 
   create_table "articles", force: true do |t|
-    t.string   "title",                   null: false
-    t.text     "content",                 null: false
+    t.string   "title"
+    t.text     "content"
     t.integer  "category_id"
     t.boolean  "active"
     t.datetime "created_at"
